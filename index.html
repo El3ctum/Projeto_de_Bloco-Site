@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Carregando FONTES DO PROJETO -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Jacques+Francois&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Jacques+Francois&display=swap"
+    rel="stylesheet">
 
 
+  <!-- CSS FILES -->  
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
+
+  <!-- SCRIPT FILE -->
+  <script src="https://kit.fontawesome.com/319bcaf301.js" crossorigin="anonymous"></script>
+  <script defer src="main.js"></script>
   <link rel="shortcut icon" href="assets/Images/favicon/android-chrome-512x512.png" type="image/x-icon">
 
   <title>Açougue - Delicias da Carne</title>
@@ -23,30 +32,26 @@
 
   <header class="header">
     <div class="header__thumb"></div>
-    <div class="header__content">
-      <nav class="header__content__menu">
-        <ul>
-          <li>Início</li>
-          <li>Menu</li>
-          <li>Sobre</li>
-          <li>Localização</li>
-          <li>Contato</li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="header__content">
+      <ul>
+        <li><a href="">Início</a></li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Sobre</a></li>
+        <li><a href="">Localização</a></li>
+        <li><a href="">Contato</a></li>
+      </ul>
+    </nav>
+    <i data-js="icon" class="show fa-solid fa-bars fa-4x"></i>
   </header>
 
   <main class="container">
 
-    <section class="section section--inicio">
-      <h2 class="section__title">DELICIAS DA CARNE</h2>
+    <section class="section--inicio">
+      <h2 class="section__title">DELICIAS <br> <span style="margin-left: 1rem;">DA</span> <br> CARNE</h2>
       <div class="thumb"></div>
-      <article>
-
-      </article>
     </section>
 
-    <section class="section section--menu">
+    <section class="section--menu">
       <h2 class="section__title">MENU</h2>
       <div class="thumb"></div>
       <article class="section__content">
@@ -66,7 +71,7 @@
             <p>Ancho ...................... R$ 29,99</p>
             <p>Ancho ...................... R$ 29,99</p>
           </div>
-          <div data-menu-item-display="2">
+<!--           <div data-menu-item-display="2">
             <p>Ancho ...................... R$ 29,99</p>
             <p>Ancho ...................... R$ 29,99</p>
             <p>Ancho ...................... R$ 29,99</p>
@@ -92,33 +97,43 @@
             <p>Ancho ...................... R$ 29,99</p>
             <p>Ancho ...................... R$ 29,99</p>
             <p>Ancho ...................... R$ 29,99</p>
-          </div>
+          </div> -->
         </div>
       </article>
     </section>
 
-    <section class="section section--sobre">
+    <section class="section--sobre">
       <h2 class="section__title">SOBRE</h2>
       <div class="thumb"></div>
       <article class="section__content">
-        <p>O açougue premium "Carnes Nobres" é fruto da perseverança de seu fundador, João, que começou a trabalhar em um açougue desde jovem e conseguiu economizar para comprar o próprio negócio. Com experiência e dedicação, ele conquistou a confiança dos clientes e se destacou pela qualidade dos produtos e atendimento personalizado. Hoje, "Carnes Nobres" é reconhecido em toda a região pela excelência de seus produtos e é um exemplo de superação e sucesso empresarial.</p>
+        <p>O açougue premium "Carnes Nobres" é fruto da perseverança de seu fundador, João, que começou a trabalhar em
+          um açougue desde jovem e conseguiu economizar para comprar o próprio negócio. Com experiência e dedicação, ele
+          conquistou a confiança dos clientes e se destacou pela qualidade dos produtos e atendimento personalizado.
+          Hoje, "Carnes Nobres" é reconhecido em toda a região pela excelência de seus produtos e é um exemplo de
+          superação e sucesso empresarial.</p>
       </article>
     </section>
 
-    <section class="section section--localizacao">
+    <section class="section--localizacao">
       <h2 class="section__title">LOCALIZAÇÃO</h2>
       <div class="thumb"></div>
       <article class="section__content">
-        <iframe width="500" height="400" frameborder="0" src="https://www.bing.com/maps?&cp=-22.284073~-42.530265&lvl=16&pi=0&osid=88a21f93-96aa-4d6e-a718-ce917513ae75&v=2&sV=2&form=S00027" scrolling="no">
+        <iframe width="500" height="400" frameborder="0"
+          src="https://www.bing.com/maps?&cp=-22.284073~-42.530265&lvl=16&pi=0&osid=88a21f93-96aa-4d6e-a718-ce917513ae75&v=2&sV=2&form=S00027"
+          scrolling="no">
         </iframe>
         <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
-           <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=-24.99974967945576~2579.000015258789&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">Exibir Mapa Grande</a> &nbsp; | &nbsp;
-           <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=-24.99974967945576~2579.000015258789&amp;sty=r&amp;lvl=11&amp;rtp=~pos.-24.99974967945576_2579.000015258789____&amp;FORM=MBEDLD">Obter Trajeto</a>
-       </div>
+          <a id="largeMapLink" target="_blank"
+            href="https://www.bing.com/maps?cp=-24.99974967945576~2579.000015258789&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">Exibir
+            Mapa Grande</a> &nbsp; | &nbsp;
+          <a id="dirMapLink" target="_blank"
+            href="https://www.bing.com/maps/directions?cp=-24.99974967945576~2579.000015258789&amp;sty=r&amp;lvl=11&amp;rtp=~pos.-24.99974967945576_2579.000015258789____&amp;FORM=MBEDLD">Obter
+            Trajeto</a>
+        </div>
       </article>
     </section>
 
-    <section class="section section--contato">
+    <section class="section--contato">
       <h2 class="section__title">CONTATO</h2>
       <div class="thumb"></div>
       <article class="section__content">
@@ -137,8 +152,14 @@
       </article>
     </section>
 
+
+    
   </main>
 
   <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
