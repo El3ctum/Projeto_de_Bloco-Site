@@ -588,7 +588,7 @@ body {
     font-size: 1.5em;
   }
 
-  .section--contato .section__content iframe{
+  .section--contato .section__content form{
     height: 300px;
     width: 100%;
   }
