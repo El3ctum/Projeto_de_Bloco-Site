@@ -372,7 +372,7 @@ body {
 
   .section--menu__itensDisplay .line{
     display: inline-block;
-    width: 35%;
+    width: 30%;
     margin: 0 10px;
   }
 }
@@ -590,5 +590,6 @@ body {
 
   .section--contato .section__content iframe{
     height: 300px;
+    width: 100%;
   }
 }
