@@ -588,7 +588,7 @@ body {
     font-size: 1.5em;
   }
 
-  .section--contato .section__content form{
+  .section--contato .section__content textarea{
     height: 300px;
     width: 100%;
   }
