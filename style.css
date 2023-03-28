@@ -372,7 +372,7 @@ body {
 
   .section--menu__itensDisplay .line{
     display: inline-block;
-    width: 30%;
+    width: 10%;
     margin: 0 10px;
   }
 }
